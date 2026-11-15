@@ -1,0 +1,31 @@
+{
+  "input": "/mypath/fold_vzv_ge_hsv1_gb_model_0.pdb",
+  "segments": [
+    "A1-544",
+    "B31-730"
+  ],
+  "n_linkers": 1,
+  "linker_length": "5",
+  "is_non_loopy": true,
+  "contig": "A1-544,5,B31-730",
+  "rfd3_out": "/mypath/test_2seg/rfd3_out",
+  "mpnn": false,
+  "designs": [
+    {
+      "design": "rfd3_input_linker_design_0_model_0",
+      "length": 1249,
+      "linkers": [
+        {
+          "position": "545-549",
+          "length": 5,
+          "sequence": "LLLEA"
+        }
+      ],
+      "segment_identity": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "n_sequences": 1
+}

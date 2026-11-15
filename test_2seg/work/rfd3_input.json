@@ -1,0 +1,11 @@
+{
+  "linker_design": {
+    "input": "/mypath/fold_vzv_ge_hsv1_gb_model_0.pdb",
+    "contig": "A1-544,5,B31-730",
+    "is_non_loopy": true,
+    "select_fixed_atoms": {
+      "A1-544": "BKBN",
+      "B31-730": "BKBN"
+    }
+  }
+}
